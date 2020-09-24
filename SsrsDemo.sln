@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SsrsDemo", "SsrsDemo\SsrsDemo.rptproj", "{4CB5A0C6-0962-4B01-9176-595287A8BC08}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "MoviesProject", "MoviesProject\MoviesProject.rptproj", "{231A9C7A-746E-4C72-AE1D-84F9B044CB60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2CFEFB05-FD54-4942-97F3-A1506DFDD822}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Movies.sql = ..\..\..\Movies.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.Debug|Default.ActiveCfg = Debug
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.Debug|Default.Build.0 = Debug
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.Debug|Default.Deploy.0 = Debug
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.DebugLocal|Default.Build.0 = DebugLocal
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.Release|Default.ActiveCfg = Release
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.Release|Default.Build.0 = Release
+		{4CB5A0C6-0962-4B01-9176-595287A8BC08}.Release|Default.Deploy.0 = Release
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.Debug|Default.ActiveCfg = Debug
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.Debug|Default.Build.0 = Debug
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.Debug|Default.Deploy.0 = Debug
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.DebugLocal|Default.Build.0 = DebugLocal
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.Release|Default.ActiveCfg = Release
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.Release|Default.Build.0 = Release
+		{231A9C7A-746E-4C72-AE1D-84F9B044CB60}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {665C5CE4-5349-4106-83EE-F0F8C6ED1C78}
+	EndGlobalSection
+EndGlobal
